@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>coinvert.</title>
+	</head>
+	<body>
+		<div
+			class="
+				d-flex
+				flex-column
+				justify-content-center
+				align-items-center
+				vh-100
+			"
+		>
+			<h1 class="mt-5">coinvert.</h1>
+			<h2>quick and easy conversion</h2>
+			<div class="d-flex justify-content-center align-items-start vh-100 my-5">
+				<div
+					id="container"
+					class="d-flex justify-content-center align-items-center pb-5 rounded"
+				>
+					<form
+						class="d-flex justify-content-center align-items-center flex-column"
+					>
+						<div class="d-flex align-items-center p-5">
+							<input class="m-3" type="number" id="val1" />
+							<input class="m-3" type="number" id="val2" />
+						</div>
+						<div class="d-flex align-items-center pb-5 justify-content-between">
+							<select
+								id="currency1"
+								class="form-select m-3"
+								aria-label="Default select example"
+							>
+								<option value="btc-bitcoin">btc</option>
+								<option value="eth-ethereum">eth</option>
+								<option value="eur-euro">eur</option>
+								<option value="usd-us-dollars" selected>usd</option>
+							</select>
+							<p class="m-3 text-white">to</p>
+							<select
+								id="currency2"
+								class="form-select m-3"
+								aria-label="Default select"
+							>
+								<option value="btc-bitcoin" selected>btc</option>
+								<option value="eth-ethereum">eth</option>
+								<option value="eur-euro">eur</option>
+								<option value="usd-us-dollars">usd</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+			<h5 class="my-5">prices provided by coinpaprika.com api</h5>
+		</div>
+	</body>
+</html>

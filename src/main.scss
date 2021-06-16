@@ -1,0 +1,11 @@
+$primary: teal;
+@import "~bootstrap/scss/bootstrap";
+
+body {
+	height: 100vh;
+	background-color: bisque;
+}
+
+#container {
+	background-color: blueviolet;
+}
